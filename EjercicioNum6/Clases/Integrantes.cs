@@ -52,7 +52,12 @@ namespace EjercicioNum6
 
 		public int Edad
 		{
-			get { return (DateTime.Now.Year - fechaNacimiento.Year); }
+			get 
+			{
+                int edad = DateTime.Now.Year - fechaNacimiento.Year;
+                if (DateTime.Now.DayOfYear < fechaNacimiento.DayOfYear) edad--;
+                return edad;
+            }
 		}
 
 		private int vecesHospedado;

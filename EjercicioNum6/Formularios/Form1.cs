@@ -26,9 +26,12 @@ namespace EjercicioNum6
         private void ActualizarInfo()
         {
             Hotel.ActualizarRecaudacion();
-            labelRecaudacionTotal.Text = $"Recaudacion Total {Hotel.Recaudacion}";
-            labelPasajeroMasHospedado.Text = $"Pasajero Mas Hospedado: {Hotel.PasajeroMasHospedado().Nombre}";
-            Reservas = (from r in Hotel.Reservas where (r.Completa == false) select r).ToList();
+            labelRecaudacionTotal.Text = $"Recaudacion Total {Hotel.Recaudacion:F2}";
+            Integrante pasajeroMasFrecuente = Hotel.PasajeroMasHospedado();
+            labelPasajeroMasHospedado.Text = (pasajeroMasFrecuente != null)
+        ? $"Pasajero Mas Hospedado: {pasajeroMasFrecuente.Nombre}"
+        : "Pasajero Mas Hospedado: Ninguno";
+            Reservas = (from r in Hotel.Reservas where (!r.Completa) select r).ToList();
             listBox1.DataSource = null;
             listBox1.DataSource = Reservas;
         }
@@ -94,7 +97,8 @@ namespace EjercicioNum6
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Habitacion habmasOcupada = Hotel.HabitacionMasOcupada(monthCalendar1.SelectionStart, monthCalendar1.SelectionEnd);
+            MessageBox.Show($"La habitacion mas solicitada fue: {habmasOcupada}");
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -127,11 +131,33 @@ namespace EjercicioNum6
                 if (MessageBox.Show("Esta segurod que desea eliminar la reserva.\nSe aplicaran los cargos correspondientes.", "", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
                     Reserva r = listBox1.SelectedItem as Reserva;
-                    Hotel.CancelarReserva(r);
+                    float vuelto = Hotel.CancelarReserva(r);
+                    MessageBox.Show($"Se ha devuelto ${vuelto} al/los integrante/s de la habitacion"); 
                     ActualizarInfo();
                 }
             }
            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItems.Count > 0)
+            {
+                Reserva r = listBox1.SelectedItem as Reserva;
+                Hotel.OcuparHabitacionReservada(r);
+                ActualizarInfo();
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Habitacion habmasOcupada = Hotel.HabitacionMasOcupada();
+            MessageBox.Show($"La habitacion mas solicitada fue: {habmasOcupada}");
+        }
+
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

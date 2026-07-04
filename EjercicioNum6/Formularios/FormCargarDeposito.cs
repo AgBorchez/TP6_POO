@@ -34,7 +34,7 @@ namespace EjercicioNum6.Formularios
 
         private void FormCargarDeposito_Load(object sender, EventArgs e)
         {
-            label1.Text = $"El deposito minimo debe ser de {(reserva.ValorTotReserva*10)/100}";
+            label1.Text = $"El deposito minimo debe ser de {(reserva.CalcularValorHospedaje()*10)/100:F2}";
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -11,12 +11,12 @@ namespace EjercicioNum6
         {
         }
 
-        public override void CalcularValorReserva()
+        public override float CalcularValorHospedaje()
         {
-            base.CalcularValorReserva();
-            double dias = (FechaInicio - FechaFin).TotalDays;
-            valorTotReserva += (float)dias * 50;
             
+            double dias = (FechaFin - FechaInicio).TotalDays;
+            return base.CalcularValorHospedaje() + ((float)dias * 50);
+
         }
     }
 }

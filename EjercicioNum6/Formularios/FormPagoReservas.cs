@@ -38,7 +38,7 @@ namespace EjercicioNum6.Formularios
         {
             if (textboxNumerica1.ToFloat(out float pago, "Pago")) 
             {
-                if(hotel.EfectuarPagoFinal(reserva, pago))
+                if(hotel.EfectuarPagoCheckOut(reserva, pago))
                 {
                     Close();
                 }
@@ -47,7 +47,7 @@ namespace EjercicioNum6.Formularios
 
         private void FormPagoReservas_Load(object sender, EventArgs e)
         {
-            label1.Text = $"Cantidad Total a pagar: {(reserva.ValorTotReserva-reserva.Deposito)}";
+            label1.Text = $"Cantidad Total a pagar: {(reserva.CalcularValorFinal()-reserva.Deposito):F2}";
         }
     }
 }

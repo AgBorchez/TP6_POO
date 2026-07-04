@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\reservas\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\reservas\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\reservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\reservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\clases\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formpagoreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formpagoreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formpagoreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formpagoreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\artefacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\artefacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,32 +31,48 @@
       "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\formartefactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formartefactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\formhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|c:\\users\\agustin\\repoproyectos\\ejercicionum6\\ejercicionum6\\formularios\\formintegrantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formintegrantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcargardeposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\habitaciones\\habitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\habitaciones\\habitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formcrearreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\reservas\\reservaconcuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\reservas\\reservaconcuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\integrantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\integrantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\clases\\artefacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\clases\\artefacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\ejercicionum6\\formularios\\formartefactoshabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C1AA91-9546-4F88-BEB6-44C413139E85}|EjercicioNum6\\EjercicioNum6.csproj|solutionrelative:ejercicionum6\\formularios\\formartefactoshabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\Form1.cs",
               "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\Form1.cs",
@@ -79,13 +99,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\Form1.cs",
               "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\Form1.cs",
               "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\Form1.cs",
               "RelativeToolTip": "EjercicioNum6\\Formularios\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vxwAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-25T21:33:38.072Z",
               "IsPinned": true,
@@ -93,20 +113,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormCargarDeposito.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
-              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAewDAAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "FormIntegrantes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormIntegrantes.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormIntegrantes.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormIntegrantes.cs [Design]",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormIntegrantes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T03:34:41.367Z",
+              "WhenOpened": "2026-07-04T04:40:50.763Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPagoReservas.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormPagoReservas.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormPagoReservas.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormPagoReservas.cs",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormPagoReservas.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwCgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T03:19:13.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FormCargarDeposito.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
               "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
@@ -118,58 +150,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\ClassDiagram1.cd",
-              "RelativeDocumentMoniker": "EjercicioNum6\\ClassDiagram1.cd",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\ClassDiagram1.cd",
-              "RelativeToolTip": "EjercicioNum6\\ClassDiagram1.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2026-06-02T21:50:47.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormCrearReserva.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCrearReserva.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormCrearReserva.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCrearReserva.cs",
-              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormCrearReserva.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAewGcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T22:28:21.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Hotel.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Hotel.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Hotel.cs",
-              "RelativeToolTip": "EjercicioNum6\\Clases\\Hotel.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAewPAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T20:49:17.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Reservas.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Reservas\\Reservas.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Reservas\\Reservas.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Reservas\\Reservas.cs",
-              "RelativeToolTip": "EjercicioNum6\\Clases\\Reservas\\Reservas.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAIAwwGgAAAAUAAAAAAAAAA==",
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Reservas\\Reserva.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Reservas\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Reservas\\Reserva.cs",
+              "RelativeToolTip": "EjercicioNum6\\Clases\\Reservas\\Reserva.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADgv7MAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-27T00:57:28.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Hotel.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Hotel.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Hotel.cs",
+              "RelativeToolTip": "EjercicioNum6\\Clases\\Hotel.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAewG8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:49:17.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Artefacto.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Artefacto.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Artefacto.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Artefacto.cs",
+              "RelativeToolTip": "EjercicioNum6\\Clases\\Artefacto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T22:28:00.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FormPagoReservas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormPagoReservas.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormPagoReservas.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormPagoReservas.cs [Design]",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormPagoReservas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T03:19:11.143Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormHabitaciones.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormHabitaciones.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormHabitaciones.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormHabitaciones.cs [Design]",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormHabitaciones.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T04:40:52.459Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormArtefactos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormArtefactos.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormArtefactos.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormArtefactos.cs [Design]",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormArtefactos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T04:41:00.259Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Habitacion.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
+              "RelativeToolTip": "EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwCYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T14:34:38.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FormCrearReserva.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCrearReserva.cs",
               "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormCrearReserva.cs",
@@ -181,55 +250,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Habitacion.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
-              "RelativeToolTip": "EjercicioNum6\\Clases\\Habitaciones\\Habitacion.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwDYAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "FormCargarDeposito.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormCargarDeposito.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA5wCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T14:34:38.424Z",
+              "WhenOpened": "2026-06-29T03:34:41.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "FormCrearReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCrearReserva.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormCrearReserva.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormCrearReserva.cs",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormCrearReserva.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAD4v3UAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T22:28:21.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "EjercicioNum6\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\ClassDiagram1.cd",
+              "RelativeToolTip": "EjercicioNum6\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2026-06-02T21:50:47.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ReservaConCuna.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Reservas\\ReservaConCuna.cs",
               "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Reservas\\ReservaConCuna.cs",
               "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Reservas\\ReservaConCuna.cs",
               "RelativeToolTip": "EjercicioNum6\\Clases\\Reservas\\ReservaConCuna.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T00:58:34.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T00:58:34.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Integrantes.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Integrantes.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Integrantes.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Integrantes.cs",
-              "RelativeToolTip": "EjercicioNum6\\Clases\\Integrantes.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAA4wEQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "FormArtefactosHabitacion.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormArtefactosHabitacion.cs",
+              "RelativeDocumentMoniker": "EjercicioNum6\\Formularios\\FormArtefactosHabitacion.cs",
+              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Formularios\\FormArtefactosHabitacion.cs",
+              "RelativeToolTip": "EjercicioNum6\\Formularios\\FormArtefactosHabitacion.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T23:04:04.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Artefacto.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Artefacto.cs",
-              "RelativeDocumentMoniker": "EjercicioNum6\\Clases\\Artefacto.cs",
-              "ToolTip": "C:\\Users\\Agustin\\RepoProyectos\\EjercicioNum6\\EjercicioNum6\\Clases\\Artefacto.cs",
-              "RelativeToolTip": "EjercicioNum6\\Clases\\Artefacto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T22:28:00.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T03:22:27.744Z"
             }
           ]
         }

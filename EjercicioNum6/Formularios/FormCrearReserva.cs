@@ -114,11 +114,33 @@ namespace EjercicioNum6.Formularios
                 {
                     MessageBox.Show("La reserva se cancelo con exito!");
                     hotel.Reservas.Remove(r);
+                    this.DialogResult = DialogResult.Cancel;
+                    Close();
                 }       
             }
 
         }
 
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "Buscar Integrante")
+            {
+                textBox1.Text = "";
+            }
+        }
 
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox1.Text)) 
+            {
+                textBox1.Text = "Buscar Integrante";
+            }
+            listBox3.DataSource = hotel.HistoricoIntegrantes;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            listBox3.DataSource = hotel.HistoricoIntegrantes.Where(integrante => (integrante.Nombre.ToLower()).Contains(textBox1.Text.ToLower()) || (integrante.Apellido.ToLower()).Contains(textBox1.Text.ToLower())).ToList();
+        }
     }
 }

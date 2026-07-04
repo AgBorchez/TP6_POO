@@ -17,6 +17,6 @@ namespace EjercicioNum6
         {
             return $"Tipo habitacion: Doble | Numero Habitacion: {Numerohabitacion} | Vista Al Mar: {(Vistamar ? "si" : "no")}";
         }
-        public override float Precio { get; } = 200;
+        public override float Precio { get; } = 350;
     }
 }

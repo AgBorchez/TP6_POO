@@ -105,7 +105,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Clases\Reservas\ReservaConCuna.cs" />
-    <Compile Include="Clases\Reservas\Reservas.cs" />
+    <Compile Include="Clases\Reservas\Reserva.cs" />
     <Compile Include="TextboxNumerica.cs">
       <SubType>Component</SubType>
     </Compile>

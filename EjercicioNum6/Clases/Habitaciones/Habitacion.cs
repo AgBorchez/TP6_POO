@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace EjercicioNum6
 {
@@ -27,21 +28,6 @@ namespace EjercicioNum6
 			get;
 		}
 
-		private List<Artefacto> artefactos = new List<Artefacto>();
-
-		public List<Artefacto> Artefactos
-		{
-			get { return artefactos; }
-		}
-
-		private int vecesOcupada;
-
-		public int VecesOcupada
-        {
-			get { return vecesOcupada; }
-			set { vecesOcupada = value; }
-		}
-
         private bool vistamar;
 
         public bool Vistamar
@@ -50,13 +36,9 @@ namespace EjercicioNum6
             set { vistamar = value; }
         }
 
-        private int vecesSolicitada;
+        public List<Artefacto> Artefactos = new List<Artefacto>();
 
-        public int VecesSolicitada
-        {
-            get { return vecesSolicitada; }
-            set { vecesSolicitada = value; }
-        }
+        public List<Artefacto> artefactos { get {return Artefactos; } }
 
 
         public static Habitacion CrearHabitacion(string seleccion, int numerohabitacion, bool vistamar)

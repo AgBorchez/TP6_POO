@@ -50,15 +50,15 @@ namespace EjercicioNum6
         public bool VerificarDisponibilidadReserva(Reserva reserva)
 		{
 			//punto 11
-			bool ReservaYaRegistrada = false;
+			bool ReservaDisponible = true;
 			foreach (Reserva r in reservas)
 			{
-				if ((reserva.FechaInicio > r.FechaInicio && reserva.FechaInicio < r.FechaFin) || (r.FechaInicio > reserva.FechaInicio && r.FechaInicio < reserva.FechaFin))
-				{
-					ReservaYaRegistrada = true;
-				}
-			}
-			return ReservaYaRegistrada;
+                if (reserva.Habitacion.Numerohabitacion == r.Habitacion.Numerohabitacion && reserva.FechaInicio < r.FechaFin && r.FechaInicio < reserva.FechaFin)
+                {
+                    ReservaDisponible = false;
+                }
+            }
+			return ReservaDisponible;
 		}
 
 		//como es el hotel el que se encarga de las reservas
@@ -76,47 +76,47 @@ namespace EjercicioNum6
 			}
 
 
-			if (!VerificarDisponibilidadReserva(r))
+			if (VerificarDisponibilidadReserva(r))
 			{
-                r.Habitacion.VecesOcupada++;
-                r.Habitacion.VecesSolicitada++;
-				r.CalcularValorReserva();
+				r.Solicitada = true;
                 reservas.Add(r);
 				return r;
 			}
 			return null;
 		}
 
+		public void OcuparHabitacionReservada(Reserva r)
+		{
+			//punto 2 
+			//se us asolo cuando los pasajeros llegan presencialmente y ocupan la habitacion
+			if(!r.Completa && r.FechaFin > DateTime.Now) r.Ocupada = true;
+
+		}
+
 		public float CancelarReserva(Reserva r)
 		{
 			//Punto 4
-			DateTime fecha = DateTime.Now;
-			float Vuelto = 0;
+			
+			int DiasAnticipacion = (int)(r.FechaInicio - DateTime.Now).TotalDays;
 
-			if ((r.FechaInicio - fecha) < TimeSpan.FromDays(2))
-			{
-				Vuelto = r.DevolverExcedenteDeposito(10);
-			}
-			if ((r.FechaInicio - fecha) > TimeSpan.FromDays(2))
-			{
-				Vuelto = r.DevolverExcedenteDeposito(5);
-			}
-			if ((r.FechaInicio - fecha) > TimeSpan.FromDays(7))
-			{
-				Vuelto = r.DevolverExcedenteDeposito(0);
-			}
+            float Vuelto = r.DevolverExcedenteDeposito(DiasAnticipacion);
 
-			r.Habitacion.VecesOcupada--;
+			ActualizarRecaudacion();
+
 			return Vuelto;
 		}
 
-		public bool EfectuarPagoFinal(Reserva r, float pago)
+		public bool EfectuarPagoCheckOut(Reserva r, float pago)
 		{
 			//Punto 6
+			float vuelto = r.PagarTotal(pago);
 
-			if(r.PagarTotal(pago) != -1f) 
+
+            if (vuelto != -1f) 
 			{
 				ActualizarRecaudacion();
+				r.TerminarReserva();
+				MessageBox.Show($"Se ha devuelto ${vuelto:F2} sobrantes de el pago");
 				return true;
             }
 			return false;
@@ -125,36 +125,20 @@ namespace EjercicioNum6
 		public Habitacion HabitacionMasSolicitada(DateTime FIL, DateTime FFL)
 		{
 
-			//punto 7
-			Habitacion HabMasSolicitada = new HabSimple();
-			foreach (Reserva r in reservas) 
-			{
-				if(r.FechaInicio > FIL && r.FechaInicio < FFL)
-				{
-					if(r.Habitacion.VecesSolicitada > HabMasSolicitada.VecesSolicitada)
-					{
-						HabMasSolicitada = r.Habitacion;
-					}
-				}
-			}
-
-			return HabMasSolicitada;
-		}
+            //punto 7
+            return reservas
+				.Where(r => r.FechaInicio < FFL && FIL < r.FechaFin && r.Solicitada == true)
+				.GroupBy(r => r.Habitacion)
+				.OrderByDescending(grupo => grupo.Count())
+				.Select(grupo => grupo.Key)
+				.FirstOrDefault() ?? new HabSimple();
+        }
 
         public Integrante PasajeroMasHospedado()
         {
             //Punto 8
-            Integrante IMasHospedado = new Integrante();
 
-            if (historicoIntegrantes.Count >= 0)
-            {
-                foreach (Integrante integrante in historicoIntegrantes)
-                {
-                    if (IMasHospedado.VecesHospedado < integrante.VecesHospedado) IMasHospedado = integrante;
-                }
-            }
-
-            return IMasHospedado;
+            return historicoIntegrantes.OrderByDescending(r => r.VecesHospedado).FirstOrDefault();
         }
 
         public float ObtenerRecaudacionPorFecha(DateTime InicioPeriodo, DateTime FinPeriodo)
@@ -165,7 +149,7 @@ namespace EjercicioNum6
 
 			foreach (Reserva r in reservas)
 			{
-				if(r.FechaInicio > InicioPeriodo && r.FechaInicio < FinPeriodo)
+				if(r.Completa && r.FechaInicio >= InicioPeriodo && r.FechaInicio <= FinPeriodo)
 				{
 					RecaudacionFecha += r.Deposito;
 				}
@@ -176,35 +160,27 @@ namespace EjercicioNum6
 
 		public Habitacion HabitacionMasOcupada() 
 		{
-			//punto 11 primera parte
+			//punto 10 primera parte
 
 			Habitacion HMasOcupada = new HabSimple();
-			foreach (Habitacion h in habitaciones)
-			{
-				if (h.VecesOcupada > HMasOcupada.VecesOcupada)
-				{
-					HMasOcupada = h;
-				}
-			}
-
-			return HMasOcupada;
-		}
+            return reservas
+                .Where(r => r.Ocupada == true)
+                .GroupBy(r => r.Habitacion)
+                .OrderByDescending(grupo => grupo.Count())
+                .Select(grupo => grupo.Key)
+                .FirstOrDefault() ?? new HabSimple();
+        }
 
         public Habitacion HabitacionMasOcupada(DateTime FIL, DateTime FFL)
         {
-            //punto 11 segunda parte
+            //punto 10 segunda parte
 
-            Habitacion HMasOcupada = new HabSimple();
-            foreach (Habitacion h in habitaciones)
-            {
-				//if(h)
-                if (h.VecesOcupada > HMasOcupada.VecesOcupada)
-                {
-                    HMasOcupada = h;
-                }
-            }
-
-            return HMasOcupada;
+            return reservas
+				.Where(r => r.FechaInicio < FFL && FIL < r.FechaFin && r.Ocupada == true)
+				.GroupBy(r => r.Habitacion)
+				.OrderByDescending(grupo => grupo.Count())
+				.Select(grupo => grupo.Key)
+				.FirstOrDefault() ?? new HabSimple();
 
         }
 
@@ -244,10 +220,12 @@ namespace EjercicioNum6
 
 			foreach(Reserva r in reservas)
 			{
-				rec += r.Deposito;
+				if(r.Completa) rec += r.Deposito;
 			}
 
 			recaudacion = rec;
 		}
     }
 }
+
+//Te amo LINQ

@@ -43,6 +43,7 @@ namespace EjercicioNum6.Formularios
             listBox2.DataSource = hotel.Artefactos;
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (listBox2.SelectedIndex > 0) 
